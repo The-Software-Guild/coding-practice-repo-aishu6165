@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T04:49:58.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" version="14.9.4" etag="UMNyjr_o88368R4VNraH" type="github"><diagram id="GULglMOiISLt4ryPsret">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-04T06:00:00.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="pYMeKcnjPNnizyzofSCB" version="14.9.4" type="github">
+  <diagram id="GULglMOiISLt4ryPsret" name="Page-1">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-1" value="Here we will try to create all dependent class object and try to achieve constructor based dependency injection." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-2" value="App.class" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-7" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.3;" vertex="1" parent="1">
+          <mxGeometry x="190" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-8" value="We will load the Item here also will try to get user input from here" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-10" value="VendingView.class" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-11" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.3;" vertex="1" parent="1">
+          <mxGeometry x="410" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-12" value="We will do here dependency injection and also we deligate the request to service layer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-13" value="Controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-14" value="We will create one interface and it&#39;s implementation class&lt;br&gt;Here we will write our business logic and also we will handle exception here" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-15" value="Service layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-16" value="Inheritance uses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-17" value="We create custom Exception classes here and it will get used in service layer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="255" y="250" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-18" value="Custom Exception class" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-19" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.3;" vertex="1" parent="1">
+          <mxGeometry x="380" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-20" value="Model class&lt;br&gt;It will take input from the user or file .It will be get shared between service dao and controller." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="830" y="40" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-21" value="We will stored user given amount." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780" y="232.5" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-22" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;change class and Enum" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="170" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-24" value="Item class" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-25" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.3;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-26" value="It will get used to read data from file and also for updating the Items .Here also we will follow Inheritance approach&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-27" value="Dao Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="450" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-28" value="Here we will create two pakage one for service layer test case another for DAO Layer test cases(Unit testing)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="690" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-29" value="Test cases&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-32" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.3;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-34" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.3;" vertex="1" parent="1">
+          <mxGeometry x="650" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvEmmOTvAncpupK3P4eZ-36" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.399993896484375;arrowSize=0.306666259765625;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
